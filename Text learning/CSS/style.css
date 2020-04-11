@@ -1,0 +1,40 @@
+h1{
+	color: black
+}
+h1{
+	font-size: 40pt;
+}
+h1{
+	text-align: center;
+}
+h1,h2 {
+	font-family: cursive;
+}
+body {
+	background-color: #ECFF9E
+}
+li{
+	color: #FF6BD2;
+	font-size: 18pt;
+	font-family: cursive;
+	font-family: fantasy;
+}
+h2{
+	text-align: center;
+}
+h2{
+	font-size: 30pt;
+	text-align: center;
+}
+p{
+	font-weight: lighter;
+	font-family: fantasy;
+	text-align: center;
+}
+h2{
+	font-family: monospace;
+}
+p{
+	font-family: fantasy;
+	font-size: 15pt;
+}
