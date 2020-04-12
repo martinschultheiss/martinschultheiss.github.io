@@ -1,40 +1,43 @@
 h1{
-	color: black
-}
-h1{
+	color: black;
 	font-size: 40pt;
-}
-h1{
 	text-align: center;
+	font-family: fantasy;
 }
-h1,h2 {
-	font-family: cursive;
-}
+
 body {
 	background-color: #ECFF9E
 }
 li{
-	color: #FF6BD2;
+	color: #6B997F;
 	font-size: 18pt;
+	font-family: monospace;
+}
+h2{
 	font-family: cursive;
-	font-family: fantasy;
-}
-h2{
 	text-align: center;
-}
-h2{
-	font-size: 30pt;
-	text-align: center;
+	font-size: 35pt;
+	color: #3456B3;
 }
 p{
 	font-weight: lighter;
 	font-family: fantasy;
 	text-align: center;
-}
-h2{
-	font-family: monospace;
-}
-p{
-	font-family: fantasy;
 	font-size: 15pt;
+}
+
+#first{
+	font-weight: bolder;
+}
+.lighter{
+	font-weight: lighter;
+}
+#bold{
+	font-weight: bold;
+}
+.final{
+	background-color: #FFEF31
+}
+#bold1{
+	font-weight: bold;
 }
