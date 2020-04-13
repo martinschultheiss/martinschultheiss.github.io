@@ -1,0 +1,41 @@
+body{
+	background-image: url("image_1.jpg");
+	background-size: cover;
+}
+
+body {
+	font-size: 20pt;
+}
+h1 {
+	text-align: left;
+	padding-top:0px;
+  padding-bottom:0px;
+}
+p {
+	color: black;
+	text-align: center;
+	font-family: calibri;
+	font-size: 16pt;
+	margin-right: 100pt;
+	margin-left: 100pt;
+}
+li {
+	color: #5C4D0A;
+	font-family: calibri;
+	font-size: 16pt;
+	font-weight: bold;
+	margin-top: 10pt;
+}
+h2 {
+	color: #5C4D0A;
+	text-align: center;
+	font-family: calibri;
+	font-family: cursive;
+	font-size: 60pt;
+	line-height: 60pt;
+	font-weight: lighter;
+	margin-top: 8pt;
+}
+#space{
+	margin-top: 40pt;
+}
