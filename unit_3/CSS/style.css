@@ -12,19 +12,21 @@ h1 {
   padding-bottom:0px;
 }
 p {
-	color: black;
+	color: #373B40;
 	text-align: center;
 	font-family: calibri;
-	font-size: 16pt;
-	margin-right: 100pt;
-	margin-left: 100pt;
+	font-size: 20pt;
+	margin-right: 60pt;
+	margin-left: 60pt;
+	font-weight: lighter;
 }
 li {
 	color: #5C4D0A;
 	font-family: calibri;
-	font-size: 16pt;
-	font-weight: bold;
-	margin-top: 10pt;
+	font-size: 18pt;
+	font-weight: lighter;
+	margin-bottom: 10pt;
+	margin-left: 80pt;
 }
 h2 {
 	color: #5C4D0A;
@@ -38,4 +40,7 @@ h2 {
 }
 #space{
 	margin-top: 40pt;
+}
+ul{
+	column-count: 3;
 }
