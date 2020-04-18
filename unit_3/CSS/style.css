@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower|Fredoka+One);
+
+
 body{
 	background-image: url("image_1.jpg");
 	background-size: cover;
@@ -14,29 +17,30 @@ h1 {
 p {
 	color: #373B40;
 	text-align: center;
-	font-family: calibri;
+	font-family: 'Indie Flower', cursive;
 	font-size: 20pt;
-	margin-right: 60pt;
-	margin-left: 60pt;
-	font-weight: lighter;
+	margin-right: 90pt;
+	margin-left: 90pt;
+	font-weight: bold;
 }
 li {
 	color: #5C4D0A;
-	font-family: calibri;
-	font-size: 18pt;
+	font-family: indie flower;
 	font-weight: lighter;
+	font-size: 22pt;
 	margin-bottom: 10pt;
 	margin-left: 80pt;
 }
 h2 {
 	color: #5C4D0A;
 	text-align: center;
-	font-family: calibri;
-	font-family: cursive;
+	font-family: 'Indie Flower', cursive;
 	font-size: 60pt;
 	line-height: 60pt;
 	font-weight: lighter;
 	margin-top: 8pt;
+	margin-right: 90pt;
+	margin-left: 90pt;
 }
 #space{
 	margin-top: 40pt;
