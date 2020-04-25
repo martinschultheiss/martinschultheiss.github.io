@@ -1,19 +1,42 @@
+
+
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower|Fredoka+One);
+@import url(https://fonts.googleapis.com/css?family=Baloo+Bhaina);
 
-
-body{
-	background-image: url("image_1.jpg");
-	background-size: cover;
-}
 
 body {
+	background-size: cover;
 	font-size: 20pt;
 }
+
+img{
+	display: block;
+	margin: 0, auto;
+}
+
+
 h1 {
 	text-align: left;
 	padding-top:0px;
-  padding-bottom:0px;
+  	padding-bottom:0px;
+  	text-align: center;
+  	font-family: Baloo Bhaina;
+  	color: #5C4D0A;
 }
+
+
+h2 {
+	color: #5C4D0A;
+	text-align: center;
+	font-family: Baloo Bhaina;
+	font-size: 2em;
+	line-height: 60pt;
+	font-weight: lighter;
+	margin-top: 8pt;
+	margin-right: 90pt;
+	margin-left: 90pt;
+}
+
 p {
 	color: #373B40;
 	text-align: center;
@@ -23,6 +46,18 @@ p {
 	margin-left: 90pt;
 	font-weight: bold;
 }
+
+nav {
+	text-align: center;
+	color: black;
+	font-family: 'Indie Flower', cursive;
+}
+
+
+ul { 
+	column-count: 3;
+}
+
 li {
 	color: #5C4D0A;
 	font-family: indie flower;
@@ -31,20 +66,55 @@ li {
 	margin-bottom: 10pt;
 	margin-left: 80pt;
 }
-h2 {
-	color: #5C4D0A;
-	text-align: center;
-	font-family: 'Indie Flower', cursive;
-	font-size: 60pt;
-	line-height: 60pt;
-	font-weight: lighter;
-	margin-top: 8pt;
-	margin-right: 90pt;
-	margin-left: 90pt;
-}
+
 #space{
-	margin-top: 40pt;
+	margin-top: 20pt;
+	margin-bottom: -10pt;
 }
-ul{
-	column-count: 3;
+
+h3{
+	text-align: center;
+	margin-right: 90pt;
+	color: #5C4D0A;
+	font-family: indie flower;
+}
+}
+img {
+	display: block;
+	margin: 0 auto;
+
+}
+
+#martin2{
+	text-align: right;
+	font-size: 18pt;
+	margin-top: -20pt;
+	margin-bottom: 40pt;
+	margin-right: 100pt;
+}
+
+#martin {
+	font-size: 40pt;
+	padding-top: 1em;
+	text-align: right;
+}
+
+.saturday{
+	text-align: left;
+	margin-left: 20pt;
+}
+#border {
+	border-color: #F7F7D2;
+	padding-top: 2em;
+}
+#middle {
+	margin-bottom: -10pt;
+	font-size: 30pt;
+	line-height: 1.5em;
+	font-style: bold;
+	font-family: indie flower, cursive;
+}
+nav {
+	margin-top: 30pt;
+	color: #F7F7D2;
 }
