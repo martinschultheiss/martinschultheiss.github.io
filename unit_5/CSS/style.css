@@ -94,6 +94,12 @@ img {
 	margin-left: 35pt;
 }
 
+#font{
+	font-family: indie flower, cursive;
+	color: #5C4D0A;
+	font-style: italic;
+}
+
 #martin {
 	font-size: 40pt;
 	padding-top: 1em;
