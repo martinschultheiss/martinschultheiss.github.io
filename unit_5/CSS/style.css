@@ -2,18 +2,12 @@
 
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower|Fredoka+One);
 @import url(https://fonts.googleapis.com/css?family=Baloo+Bhaina);
-
+@import url(https://fonts.googleapis.com/css?family=Mitr);
 
 body {
-	background-size: cover;
-	font-size: 20pt;
+	width: 100%;
+	font-size: 14pt;
 }
-
-img{
-	display: block;
-	margin: 0, auto;
-}
-
 
 h1 {
 	text-align: left;
@@ -23,7 +17,6 @@ h1 {
   	font-family: Baloo Bhaina;
   	color: #5C4D0A;
 }
-
 
 h2 {
 	color: #5C4D0A;
@@ -37,6 +30,13 @@ h2 {
 	margin-left: 90pt;
 }
 
+h3{
+	text-align: center;
+	margin-right: 90pt;
+	color: #5C4D0A;
+	font-family: indie flower;
+}
+
 p {
 	color: #373B40;
 	text-align: center;
@@ -47,98 +47,153 @@ p {
 	font-weight: bold;
 }
 
+img{
+	display: block;
+	margin: 0, auto;
+}
+
 nav {
 	text-align: center;
 	color: black;
 	font-family: 'Indie Flower', cursive;
+	margin-top: 30pt;
+	color: #F7F7D2;
 }
 
+nav a {
+	text-decoration: none;
+  	color: #000000;
+  	margin: 0.5em;
+  	display: inline-block;
+  	text-align: left;
+  	font: 'Indie Flower';
+}
 
 ul { 
 	column-count: 3;
+	display: block;
+	margin-top: 3em;
+	margin-bottom: 3em;
 }
 
 li {
 	color: #5C4D0A;
 	font-family: indie flower;
 	font-weight: lighter;
-	font-size: 22pt;
+	font-size: 18pt;
 	margin-bottom: 10pt;
-	margin-left: 80pt;
+	margin-left: 3em;
 }
 
-#space{
+aside {
+	width: 20%;
+	margin-right: 1em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    margin-left: 1em;
+    float: right;
+    box-shadow: inset 10px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+aside > p {
+    margin: .5rem;
+
+}
+#space {
 	margin-top: 20pt;
 	margin-bottom: -20pt;
 	font-family: Baloo Bhaina;
 }
 
-h3{
-	text-align: center;
-	margin-right: 90pt;
-	color: #5C4D0A;
-	font-family: indie flower;
+#block {
+	display: inline-block;
 }
-}
-img {
-	display: block;
-	margin: 0 auto;
 
+#box {
+	text-align: center;
 }
 
 #martin2{
+	float: left;
 	text-align: left;
-	font-size: 18pt;
-	margin-top: -40pt;
-	margin-bottom: 40pt;
-	margin-left: 35pt;
+	width: 30%;
+	margin-left: 1em;
+	margin-top: 0em;
+	font-size: 15pt;
+	color: #5C4D0A;
 }
 
 #font{
-	font-family: indie flower, cursive;
+	font-family: mitr;
 	color: #5C4D0A;
-	font-style: italic;
+	font-size: 16pt;
+	margin-left: 1em;
+	margin-right: 0.8em;
+	text-align: center;
 }
 
 #martin {
-	font-size: 40pt;
-	padding-top: 1em;
+	font-size: 30pt;
+	float: right;
+	width: 47%;
+	padding: 3%
+	font-family: Baloo Bhaina;
 	text-align: right;
-	margin-left: 2em;
 }
 
 .saturday{
 	text-align: left;
 	margin-left: 20pt;
+	font-family: mitr;
+	color: #5C4D0A;
+	font-size: 16pt;
+	width: 97%;
 }
+
 #border {
 	border-color: #F7F7D2;
 	padding-top: 2em;
 }
+
 #middle {
 	margin-bottom: -10pt;
-	font-size: 30pt;
+	font-size: 20pt;
 	line-height: 1.5em;
 	font-style: bold;
 	font-family: indie flower, cursive;
-	text-decoration: underline;
 }
-#Pareto {
-	text-align: center;
-	margin-left: 2.2em;
+
+#pareto {
+	width: 45%;
+	margin-left: 5.5em;
 	font-family: Baloo Bhaina;
 	margin-bottom: .5em;
+	font-size: 18pt;
+
 }
+
 #pareto2 {
 	margin-top: -.5em;
+	font-size: 16pt;
 }
+
 #pareto3 {
 	margin-top: .5em
 }
 
-nav {
-	margin-top: 30pt;
-	color: #F7F7D2;
+#work {
+	float: right;
+	width: 47%
+	padding:3%;
+	margin-right: 6.5em;
+	margin-top: 2em;
+	font-family: Baloo Bhaina;
+	font-size: 1.2em;
+}
+.line {
+	float: none;
 }
 
 .footer{
@@ -146,4 +201,7 @@ nav {
 	line-height: 1.5em;
 	font-weight: lighter;
 	color: #5C4D0A;
+}
+#coffee {
+	width: 45%
 }
