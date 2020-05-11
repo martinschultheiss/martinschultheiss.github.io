@@ -85,11 +85,29 @@ li {
 	margin-left: 3em;
 }
 
+#column1 {
+	background-color: #BDBD2D;
+	border: solid;
+	border-color: black;
+}
+
+#column2 {
+	background-color: #EBBD2D;
+	border: solid;
+	border-color: black;
+}
+
+#column3 {
+	background-color: orange;
+	border: solid;
+	border-color: black;
+}
+
 aside {
 	width: 20%;
-	margin-right: 1em;
+	margin-right: 0em;
     padding-left: 1em;
-    padding-bottom: 1em;
+    padding-bottom: 0em;
     margin-left: 1em;
     float: right;
     box-shadow: inset 10px 0 5px -5px #29627e;
@@ -201,7 +219,13 @@ aside > p {
 	line-height: 1.5em;
 	font-weight: lighter;
 	color: #5C4D0A;
+	width: 100%;
 }
 #coffee {
-	width: 45%
+	width: 45%;
+}
+
+#back {
+	background-color: #B7D132;
+	width: 95%
 }
