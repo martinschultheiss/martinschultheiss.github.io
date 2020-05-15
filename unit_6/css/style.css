@@ -33,21 +33,22 @@ nav a {
 	margin-left: 20em;
 	margin-top: 2em;
 }
-#brandtag2 {
+#execsummary2 {
 	font-size: 1.5em;
-	text-align: right;
-	margin-left: 40em;
+	margin-left: 45em;
 	margin-top: 1em;
 }
 
 #execsummary {
-	margin-top: 1em;
-	margin-right: 1em;
-	margin-left: 1em;
-	margin-bottom: 1em;
+	margin-top: 2em;
 	background-image: url(../images/image1.jpg);
 	background-repeat: no-repeat;
 	height: 30em;
+}
+
+#execsummary2 {
+	font-size: 1.5em;
+	text-align: left;
 }
 
 footer {
