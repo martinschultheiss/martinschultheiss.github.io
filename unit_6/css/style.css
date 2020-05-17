@@ -33,18 +33,22 @@ nav a {
 	font-size: 2em;
 	text-align: center;
 	margin-left: 25em;
-	margin-top: 2em;
+	margin-top: 1em;
+	color: #101252;
 }
+
 
 #brandtag2 {
 	font-size: 1.5em;
 	text-align: center;
 	margin-left: 30em;
+	color: #556666;
 }
 
 #brandtag3 {
 	text-align: right;
 	margin-right: 11em;
+	color: #556666;
 }
 
 section {
@@ -64,17 +68,20 @@ section {
 	padding: 0.5em;
 	font-size: 1.3em;
 	text-align: center;
+	color: #101252;
 }
 
 #servicestitle {
 	padding: 1em;
 	text-decoration: underline;
 	text-align: center;
+	color: #101252;
 }
 
 #servicestitle2 {
 	text-align: center;
 	margin-top: 1em;
+	color: #101252;
 }
 
 #services {
@@ -83,6 +90,15 @@ section {
 	line-height: 2em;
 	font-size: 1.3em;
 	margin-left: 13em;
+	color: #101252;
+}
+
+b {
+	color: #FF6B70;
+}
+
+u {
+	color: #FF6B70;
 }
 
 #evidence {
@@ -99,10 +115,15 @@ section {
 	float: right;
 	text-align: center;
 	margin-top: 1em;
+	color: #556666;
+}
+
+#evidence22 {
+	color: #101252;
 }
 
 #evidence3 {
-	color: black;
+	color: #101252;
 }
 
 footer {
