@@ -48,13 +48,17 @@ nav a {
 
 #brandtag3 {
 	text-align: right;
-	margin-right: 3em;
+	margin-right: 2em;
 	margin-top: 1em;
 	color: #556666;
 }
 
 section {
 	padding: 2em;
+	margin-left: 2em;
+	margin-right: 2em;
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
 
 #execsummary {
@@ -63,27 +67,30 @@ section {
 	background-repeat: no-repeat;
 	height: 30em;
 	margin-left: 2em;
-	margin-right: 2em;
+}
+
+.black {
+	background-color: #798790;
 }
 
 .introservices {
 	padding: 0.5em;
 	font-size: 1.3em;
 	text-align: center;
-	color: #101252;
+	color: white;
 }
 
 #servicestitle {
 	padding: 1em;
 	text-decoration: underline;
 	text-align: center;
-	color: #101252;
+	color: white;
 }
 
 #servicestitle2 {
 	text-align: center;
 	margin-top: 1em;
-	color: #101252;
+	color: white;
 }
 
 #services {
@@ -92,7 +99,7 @@ section {
 	line-height: 2em;
 	font-size: 1.3em;
 	margin-left: 13em;
-	color: #101252;
+	color: white;
 }
 
 b {
@@ -103,30 +110,20 @@ u {
 	color: #FF6B70;
 }
 
-#evidence {
-	margin-top: 1em;
-	margin-bottom: 2em;
-	background-image: url(../images/teamwork1.png);
-	height: 30em;
-	background-repeat: no-repeat;
-	margin-left: 3em;
-}
-
-.evidence2 {
-	font-size: 1.3em;
-	width: 30%;
-	float: right;
-	text-align: center;
-	margin-top: 1em;
-	color: #556666;
-}
-
 .evidence22 {
 	color: #101252;
+	text-align: center;
+	margin-bottom: 0.5em;
+	line-height: 1.5em;
+	background-color: white;
 }
 
-.evidence3 {
-	color: #101252;
+.teamworkpic {
+	display: block;
+  	margin-left: auto;
+ 	margin-right: auto;
+ 	margin-bottom: 1em;
+ 	width: 50%;
 }
 
 footer {
@@ -135,9 +132,88 @@ footer {
 	background-color: black;
 	color: white;
 	padding-left: 10em;
+	margin-left: 2em;
+	margin-right: 2em;
 }
 
 #contactinfo {
 	text-align: right;
 }
 
+
+@media only screen and (min-width: 1150px) and (max-width: 1300px) {
+	body {
+	font-size: 0.85em;
+}
+.brandtag {
+	margin-left: 17em;
+}
+  
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1150px) {
+	body {
+	font-size: 0.7em;
+}
+	header {
+	height: 18em;
+}
+.brandtag {
+	margin-left: 17em;
+}
+  
+}
+
+
+@media only screen and (min-width: 700px) and (max-width: 900px) {
+	body {
+	font-size: 0.6em;
+}
+header {
+	height: 21em;
+}
+.brandtag {
+	margin-left: 17em;
+}
+  
+}
+
+@media only screen and (min-width: 560px) and (max-width: 700px) {
+	body {
+	font-size: 0.5em;
+}
+header {
+	height: 23em;
+}
+
+.brandtag {
+	margin-left: 16em;
+}
+  
+}
+
+@media only screen and (min-width: 450px) and (max-width: 560px) {
+	body {
+	font-size: 0.4em;
+}
+header {
+	height: 26em;
+}
+.brandtag {
+	margin-left: 15em;
+}
+  
+}
+
+@media only screen and (min-width: 370px) and (max-width: 450px) {
+	body {
+	font-size: 0.3em;
+}
+header {
+	height: 35em;
+}
+.brandtag {
+	margin-left: 14em;
+}
+  
+}
