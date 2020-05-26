@@ -1,0 +1,230 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Pangolin);
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+	font-family: 'Pangolin', cursive;
+	font-size: 1em;
+}
+
+header {
+	padding: 2em;
+	height: 18em;
+	background-image: url(../images/image3.png);
+	background-repeat: no-repeat; 
+	background-position: 1em 8em;
+
+}
+
+nav a {
+	color: white;
+	padding: 1em;
+	text-decoration-line: none;
+	display: inline-block;
+}
+
+#navigation {
+	text-align: right;
+	background-color: #383838;
+	width: 100%;
+	height: 4em;
+}
+
+#brandtag {
+	font-size: 2em;
+	text-align: center;
+	margin-left: 25em;
+	margin-top: 1em;
+	color: #101252;
+}
+
+#brandtag2 {
+	font-size: 1.5em;
+	text-align: center;
+	padding-top: 1em;
+	color: #556666;
+}
+
+#brandtag3 {
+	text-align: center;
+	margin-right: 2em;
+	margin-top: 1em;
+	color: #556666;
+}
+
+section {
+	padding: 2em;
+	margin-left: 2em;
+	margin-right: 2em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+}
+
+.col {
+  	max-width: 90%;
+}
+
+
+.black {
+	background-color: #383838;
+}
+
+.introservices {
+	padding: 0.5em;
+	font-size: 1.3em;
+	text-align: center;
+	color: white;
+}
+
+#servicestitle {
+	padding: 1em;
+	text-decoration: underline;
+	text-align: center;
+	color: white;
+}
+
+#servicestitle2 {
+	text-align: center;
+	margin-top: 1em;
+	color: white;
+}
+
+#services {
+	column-count: 3;
+	padding: 1em;
+	line-height: 2em;
+	font-size: 1.3em;
+	margin-left: 13em;
+	color: white;
+}
+
+b {
+	color: #FF6B70;
+}
+
+u {
+	color: #FF6B70;
+}
+
+.evidence22 {
+	color: #101252;
+	text-align: center;
+	margin-bottom: 1em;
+	line-height: 1.5em;
+}
+
+.col1 {
+	float: left;
+  	width: 33.33%;
+ 	padding: 5px;
+}
+
+.evidence2 {
+  	content: "";
+  	clear: both;
+  	display: table;
+}
+
+
+footer {
+	columns: 2;
+	background-color: #383838;
+	color: white;
+	padding-left: 10em;
+	margin-left: 2em;
+	margin-right: 2em;
+	padding-top: 1em;
+}
+
+#contactinfo {
+	text-align: right;
+}
+
+@media only screen and (max-width: 2000px) {
+.col {
+	max-width: 100%;
+}
+
+@media only screen and (min-width: 1150px) and (max-width: 1320px) {
+
+body {
+	font-size: 0.85em;
+}
+
+.col {
+	max-width: 100%;
+}
+}
+
+.brandtag {
+	margin-left: 17em;
+}
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1150px) {
+	body {
+	font-size: 0.7em;
+}
+	header {
+	height: 18em;
+}
+.brandtag {
+	margin-left: 17em;
+}
+}
+
+@media only screen and (min-width: 700px) and (max-width: 900px) {
+	body {
+	font-size: 0.6em;
+}
+header {
+	height: 21em;
+}
+
+.brandtag {
+	margin-left: 17em;
+}
+
+}
+
+@media only screen and (min-width: 560px) and (max-width: 700px) {
+	body {
+	font-size: 0.5em;
+}
+header {
+	height: 23em;
+}
+
+.brandtag {
+	margin-left: 16em;
+}
+}
+
+@media only screen and (min-width: 450px) and (max-width: 560px) {
+	body {
+	font-size: 0.4em;
+}
+header {
+	height: 26em;
+}
+
+.brandtag {
+	margin-left: 15em;
+}
+}
+
+@media only screen and (min-width: 370px) and (max-width: 450px) {
+	body {
+	font-size: 0.3em;
+}
+header {
+	height: 35em;
+}
+
+.brandtag {
+	margin-left: 14em;
+}
+}
